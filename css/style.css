@@ -1,0 +1,85 @@
+/*Código header - El Capitan*/
+* {
+	font-family: sans-serif;
+}
+.head {
+	background-color: #333;
+	padding: 10px;
+	padding: 15px 0;
+	border-bottom: 1px solid #333;
+}
+
+.logo {
+	width: 80px;
+	height: 80px;
+}
+
+nav ul {
+list-style-type: none;
+padding-top: 34px;
+margin: 0 -15px 0 0;
+float: right;
+font-size:14px;
+line-height:14px;
+text-transform: uppercase;
+white-space: nowrap;
+}
+
+nav li {
+position:relative;
+float:right;
+margin:0;
+padding:0;
+}
+
+nav a {
+text-decoration:none;
+padding: 10px 15px;
+color: #eee;
+text-shadow: 2px 2px 4px #000;
+font-family: sans-serif;
+}
+
+nav a:hover {
+color: #fff;
+}
+
+/*Código section*/
+
+section {
+	background-color: #e6e6e6;
+	border-bottom: 2px solid #ccc;
+	padding: 20px;
+}
+
+h3 {
+	display: inline;
+	float:left;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	margin-left: -15px;
+}
+.little-a {
+	float: left;
+	text-decoration: none;
+	display: inline;
+	font-size: 10px;
+	color:#008ae6;
+	margin: 12px;
+	font-weight: bold;
+}
+
+
+section img {
+	width: 200px;
+	height: 200px;
+	margin: 5px white;
+	border: 1px solid #ccc;
+}
+.enlaces-principal {
+	float: left;
+	text-decoration: none;
+	display: inline;
+	font-weight: bold;
+	color:#008ae6;
+} 
