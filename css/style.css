@@ -69,13 +69,22 @@ h3 {
 	font-weight: bold;
 }
 
+.little-a:hover {
+	color: #ccc;
+}
 
 section img {
 	width: 200px;
 	height: 200px;
 	border: 2px solid #fff;
 	box-shadow: 0px 0px 0px 1px #ccc;
+	-webkit-filter: contrast(80%);
 }
+
+section img:hover {
+	-webkit-filter: contrast(99%);
+}
+
 .enlaces-principal {
 	text-decoration: none;
 	display: block;
@@ -126,6 +135,10 @@ section img {
 	margin-left:8px;
 }
 
+.menu a:hover {
+	color: #262626;
+}
+
 .menu p {
 	position: relative;
 	bottom:30px;
@@ -139,6 +152,7 @@ section img {
 	height: 100px;
 	border: 2px solid #fff;
 	box-shadow: 0px 0px 0px 1px #ccc;
+	-webkit-filter: contrast(90%);
 
 }
 
@@ -148,6 +162,15 @@ section img {
 	text-decoration: none;
 	display: block;
 	text-align: center;
+}
+
+.images a:hover {
+	color: #595959;
+	font-weight: bold;
+}
+
+.images img:hover {
+	-webkit-filter: contrast(99%);
 }
 
 /* Comienzo Footer*/
